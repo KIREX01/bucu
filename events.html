@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Church Events - BUCU</title>
+  <link href="./assets/img/favoicon.png" rel="icon" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="site-header">
+
+       <!-- Loading Spinner -->
+<div id="loader-bg">
+  <div class="loader"></div>
+</div>
+  <!--google translate-->
+  <div style="display: none;" id="google_translate_element"></div>
+
+    <div class="logo-container">
+      <a href="index.html" class="site-title">
+        <img src="./assets/img/bucu logo.png" alt="BUCU Logo" class="logo-image" />
+        BUCU FELLOWSHIP
+      </a>
+    </div>
+
+    <nav class="navbar">
+      <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <button class="close-menu-btn" id="close-menu-btn" aria-label="Close menu">&times;</button>
+
+        <a href="index.html" class="nav-item">Home</a>
+        <div class="dropdown nav-item">
+          <a href="about.html" class="dropbtn">About Us <span class="dropdown-arrow">&#9662;</span></a>
+          <div class="dropdown-content">
+            <a href="about.html">Our Church</a>
+            <a href="ministries.html">Ministry</a>
+            <a href="team.html">Team</a>
+            <a href="programs.html">Weekly program</a>
+          </div>
+        </div>
+        <div class="dropdown nav-item">
+          <a href="media.html" class="dropbtn">Media <span class="dropdown-arrow">&#9662;</span></a>
+          <div class="dropdown-content">
+            <a href="sermons.html">Sermons</a>
+            <a href="livestream.html">Live Stream</a>
+            <a href="events.html">Church events</a>
+          </div>
+        </div>
+        <div class="dropdown nav-item">
+          <a href="#" class="dropbtn">Membership <span class="dropdown-arrow">&#9662;</span></a>
+          <div class="dropdown-content">
+            <a href="visitors.html">New Visitors</a>
+            <a href="prayer.html">Prayer Request</a>
+          </div>
+        </div>
+        <a href="giving.html" class="nav-item">Online Giving</a>
+        <a href="contact.html" class="nav-item nav-button-link">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Events Section -->
+  <main class="site-content">
+    <section class="events-section">
+      <h2>Upcoming Church Events</h2>
+      <p>Stay connected and participate in our spiritual and community-building events.</p>
+
+      <div class="event-grid">
+
+        <!-- Sample Event -->
+        <div class="event-card">
+          <h3>Mid- Week Services</h3>
+          <img src="./assets/img/team/my-profile-img.jpg" alt="" >
+          <p class="event-date"><i class="fas fa-calendar-alt"></i> Every Friday | 7:00 PM</p>
+          <p class="event-location"><i class="fas fa-map-marker-alt"></i> BUCU Fellowship</p>
+          <p>Join us for powerful mid - week services of worship and inspiration led by the youth ministry. Open to all students!</p>
+        </div>
+
+        <div class="event-card">
+          <h3>Main Service</h3>
+          <img src="./assets/img/team/my-profile-img.jpg" alt="" >
+          <p class="event-date"><i class="fas fa-calendar-alt"></i> Every Sunday | 7:00 AM</p>
+          <p class="event-location"><i class="fas fa-map-marker-alt"></i> BUCU Fellowship</p>
+          <p>Join us for Sunday services full worship and spirit inspiration led by the different students of Bugema University in different schools. Open to all students!</p>
+        </div>
+
+        <div class="event-card">
+          <h3>Community Outreach</h3>
+          <img src="./assets/img/team/my-profile-img.jpg" alt="" >
+          <p class="event-date"><i class="fas fa-calendar-alt"></i> May 18, 2025 | 9:00 AM</p>
+          <p class="event-location"><i class="fas fa-map-marker-alt"></i> Nakaseke Health Center</p>
+          <p>We’ll be visiting the community with prayers, donations, and the Word. Volunteers welcome!</p>
+        </div>
+
+        <div class="event-card">
+          <h3>Project's Day</h3>
+          <img src="./assets/img/team/my-profile-img.jpg" alt="" >
+          <p class="event-date"><i class="fas fa-calendar-alt"></i> May 18, 2025 | 9:00 AM</p>
+          <p class="event-location"><i class="fas fa-map-marker-alt"></i> Nakaseke Health Center</p>
+          <p>We’ll be visiting the community with prayers, donations, and the Word. Volunteers welcome!</p>
+        </div>
+
+        <div class="event-card">
+          <h3>Thanksgiving Celebrations</h3>
+          <img src="./assets/img/team/my-profile-img.jpg" alt="" >
+          <p class="event-date"><i class="fas fa-calendar-alt"></i> Every Sunday | 9:30 AM</p>
+          <p class="event-location"><i class="fas fa-map-marker-alt"></i> BUCU Sanctuary</p>
+          <p>Worship with us every Sunday for powerful messages, praise, and fellowship.</p>
+        </div>
+
+        <div class="event-card">
+          <h3>Leadership Conference</h3>
+          <img src="./assets/img/team/my-profile-img.jpg" alt="" >
+          <p class="event-date"><i class="fas fa-calendar-alt"></i> Every Sunday | 9:30 AM</p>
+          <p class="event-location"><i class="fas fa-map-marker-alt"></i> BUCU Sanctuary</p>
+          <p>Worship with us every Sunday for powerful messages, praise, and fellowship.</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact Info Section -->
+  <section class="contact-info">
+    <div class="contact-grid">
+      <div class="contact-column">
+        <h3>Contact Us</h3>
+        <p>Bugema University Christian Union</p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:bucufellowship5@gmail.com">bucufellowship5@gmail.com</a></p>
+        <p><i class="fas fa-phone-alt"></i> <a href="tel:+256700491755">+256 700 491 755</a></p>
+      </div>
+      <div class="contact-column">
+        <h3>Important Links</h3>
+        <div class="important-links">
+          <a href="about.html">About Us</a>
+          <a href="sermons.html">Sermons</a>
+          <a href="events.html">Events</a>
+          <a href="giving.html">Online Giving</a>
+          <a href="contact.html">Contact Page</a>
+        </div>
+      </div>
+      <div class="contact-column">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://facebook.com/bucu" target="_blank" class="social fb"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/bucu" target="_blank" class="social tw"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://instagram.com/bucu" target="_blank" class="social ig"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com/@bucu" target="_blank" class="social yt"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer-bottom">
+    <p>&copy; 2025 Bugema University Christian Union. All Rights Reserved.</p>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tabletop@1.6.0/tabletop.min.js"></script>
+  <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>

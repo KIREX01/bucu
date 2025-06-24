@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor - BUCU</title>
+    <link href="./assets/img/favoicon.png" rel="icon" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     
+    
+</head>
+<body>
+
+<header class="site-header">
+
+     <!-- Loading Spinner -->
+<div id="loader-bg">
+  <div class="loader"></div>
+</div>
+  <!--google translate-->
+  <div style="display: none;" id="google_translate_element"></div>
+  
+  <div class="logo-container">
+    <a href="index.html" class="site-title">
+      <img src="./assets/img/bucu logo.png" alt="BUCU Logo" class="logo-image">
+      BUCU FELLOWSHIP
+    </a>
+  </div>
+  
+    <nav class="navbar">
+        <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <div class="nav-links" id="nav-links" role="navigation" aria-labelledby="hamburger-menu">
+            <button class="close-menu-btn" id="close-menu-btn" aria-label="Close menu">&times;</button>
+
+            <a href="index.html" class="nav-item">Home</a>
+
+            <div class="dropdown nav-item">
+                <a href="about.html" class="dropbtn">About Us <span class="dropdown-arrow">&#9662;</span></a>
+                <div class="dropdown-content">
+                    <a href="about.html">Our Church</a>
+                    <a href="ministries.html">Ministry</a>
+                    <a href="team.html">Team</a>
+                    <a href="programs.html">Weekly program</a>
+                </div>
+            </div>
+
+            <div class="dropdown nav-item">
+                <a href="media.html" class="dropbtn">Media <span class="dropdown-arrow">&#9662;</span></a>
+                <div class="dropdown-content">
+                    <a href="sermons.html">Sermons</a>
+                    <a href="livestream.html">Live Stream</a>
+                    <a href="events.html">Church events</a>
+                </div>
+            </div>
+
+            <div class="dropdown nav-item">
+                <a href="#" class="dropbtn">Membership <span class="dropdown-arrow">&#9662;</span></a>
+                <div class="dropdown-content">
+                    <a href="visitors.html">New Visitors</a>
+                    <a href="prayer.html">Prayer Request</a>
+                </div>
+            </div>
+
+            <a href="giving.html" class="nav-item">Online Giving</a>
+
+            <a href="contact.html" class="nav-item nav-button-link">
+                 Contact
+            </a>
+        </div>
+    </nav>
+</header>
+
+<section class="about-section join-us-section" style="text-align:center;">
+  <h2>Become Part of the BUCU Family</h2>
+  <p>Are you a student at Bugema University looking for a Christ-centered fellowship? Join us today and grow in faith, leadership, and service.</p>
+  
+</section>
+
+<main class="site-content">
+  <section class="visitor-section">
+    <div class="visitor-container">
+      <div class="visitor-image">
+        <img src="./assets/img/visitors/prince-akachi-i2hoD-C2RUA-unsplash (1).jpg" alt="Welcome to BUCU" />
+      </div>
+      <div class="visitor-form-box">
+        <h2>Join BUCU Fellowship</h2>
+        <p>We’re excited to welcome you into our Christ-centered family at Bugema University!</p>
+
+        <form action="https://formsubmit.co/kiregeyafrancis@gmail.com" method="POST" class="visitor-form">
+          <input type="hidden" name="_captcha" value="false" />
+
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="Full Name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="Email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Contact</label>
+            <input type="text" id="phone" name="Phone" required />
+          </div>
+
+          <div class="form-group">
+            <label for="course">Course / Program</label>
+            <input type="text" id="course" name="Course" />
+          </div>
+
+          <div class="form-group">
+          <label for="prayer_type">School</label>
+          <select id="prayer_type" name="prayer_type" required>
+            <option value="">-- Select a school --</option>
+            <option value="school of education">school of education</option>
+            <option value="school of health sciences ">school of health sciences </option>
+            <option value="school of agriculture">school of agriculture</option>
+            <option value="school of information technology">school of information technology </option>
+            <option value="school of social studies">school of social studies</option>
+          </select>
+        </div>
+
+          <div class="form-group">
+            <label for="background">Church Background</label>
+            <input type="text" id="background" name="Church Background" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Why do you want to join BUCU?</label>
+            <textarea id="message" name="Message" rows="4" required></textarea>
+          </div>
+
+          <button type="submit" class="hero-button">Submit Registration</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="contact-info">
+  <div class="contact-grid">
+    <div class="contact-column">
+      <h3>Contact Us</h3>
+      <p>Bugema University Christian Union</p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:bucufellowship5@gmail.com">bucufellowship5@gmail.com</a></p>
+      <p><i class="fas fa-phone-alt"></i> <a href="tel:+256700491755">+256 700 491 755</a></p>
+    </div>
+
+    <div class="contact-column">
+      <h3>Important Links</h3>
+      <div class="important-links">
+        <a href="about.html">About Us</a>
+        <a href="sermons.html">Sermons</a>
+        <a href="events.html">Events</a>
+        <a href="giving.html">Online Giving</a>
+        <a href="contact.html">Contact Page</a>
+      </div>
+    </div>
+
+    <div class="contact-column">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://facebook.com/bucu" target="_blank" class="social fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/bucu" target="_blank" class="social tw" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://instagram.com/bucu" target="_blank" class="social ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/@bucu" target="_blank" class="social yt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="site-footer-bottom">
+    <p>&copy; 2025 Bugema University Christian Union. All Rights Reserved.</p>
+</footer>
+
+<script src="./assets/js/main.js"></script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
