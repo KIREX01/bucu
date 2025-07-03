@@ -281,6 +281,11 @@ body.dark-mode {
 /* --- Media Query for Mobile Responsiveness --- */
 /* =========================================== */
 @media (max-width: 992px) { /* Adjust breakpoint (e.g., 992px for tablets and below) */
+  
+  .googleapis{
+    display: none;
+  }
+  
   .logo-image {
     display: none;
   }
