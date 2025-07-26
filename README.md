@@ -2,6 +2,6 @@
 this a church website
 
 
+# church Management system intergration
+this is the url for the ChMS [text](https://bucu-records.lovable.app/auth)
 
-
-https://shepherd-connect-church.lovable.app

@@ -12,6 +12,3 @@ Allow: /
 
 User-agent: *
 Allow: /
-
-# Specify the location of the sitemap
-Sitemap: https://bucu-fellowship.web.app/sitemap.xml
