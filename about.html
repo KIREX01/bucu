@@ -20,60 +20,101 @@
 </head>
 <body>
 
-  <!-- Navbar -->
-  <header class="site-header">
+    <!-- Navbar -->
+    <header class="site-header">
 
-       <!-- Loading Spinner -->
-<div id="loader-bg">
-  <div class="loader"></div>
-</div>
-  <!--google translate-->
-  <div style="display: none;" id="google_translate_element"></div>
-    <div class="logo-container">
-      <a href="index.html" class="site-title">
-        <img src="./assets/img/bucu logo.png" alt="BUCU Logo" class="logo-image" />
-        BUCU FELLOWSHIP
-      </a>
+    <!-- Loading Spinner -->
+    <div id="loader-bg">
+      <div class="loader"></div>
     </div>
 
-    <nav class="navbar">
-      <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
-        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
       </button>
 
-      <div class="nav-links" id="nav-links">
-        <button class="close-menu-btn" id="close-menu-btn" aria-label="Close menu">&times;</button>
+      <div class="googleapis" id="google_translate_element"></div>
 
-        <a href="index.html" class="nav-item">Home</a>
-        <div class="dropdown nav-item">
-          <a href="about.html" class="dropbtn">About Us <span class="dropdown-arrow">&#9662;</span></a>
-          <div class="dropdown-content">
-            <a href="about.html">Our Church</a>
-            <a href="ministries.html">Ministry</a>
-            <a href="team.html">Team</a>
-            <a href="programs.html">Weekly program</a>
-          </div>
-        </div>
-        <div class="dropdown nav-item">
-          <a href="media.html" class="dropbtn">Media <span class="dropdown-arrow">&#9662;</span></a>
-          <div class="dropdown-content">
-            <a href="sermons.html">Sermons</a>
-            <a href="livestream.html">Live Stream</a>
-            <a href="events.html">Church events</a>
-          </div>
-        </div>
-        <div class="dropdown nav-item">
-          <a href="#" class="dropbtn">Membership <span class="dropdown-arrow">&#9662;</span></a>
-          <div class="dropdown-content">
-            <a href="visitors.html">New Visitors</a>
-            <a href="prayer.html">Prayer Request</a>
-          </div>
-        </div>
-        <a href="giving.html" class="nav-item">Online Giving</a>
-        <a href="contact.html" class="nav-item nav-button-link">Contact</a>
+      <div class="logo-container">
+        <a href="index.html" class="site-title">
+          <img
+            src="./assets/img/bucu logo.png"
+            alt="BUCU Logo"
+            class="logo-image"
+          />
+          BUCU FELLOWSHIP
+        </a>
       </div>
-    </nav>
-  </header>
+
+      <nav class="navbar">
+        <button
+          class="hamburger-menu"
+          id="hamburger-menu"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <div
+          class="nav-links"
+          id="nav-links"
+          role="navigation"
+          aria-labelledby="hamburger-menu"
+        >
+          <button
+            class="close-menu-btn"
+            id="close-menu-btn"
+            aria-label="Close menu"
+          >
+            &times;
+          </button>
+
+          <a href="index.html" class="nav-item">Home</a>
+
+          <div class="dropdown nav-item">
+            <a href="about.html" class="dropbtn"
+              >About Us <span class="dropdown-arrow">&#9662;</span></a
+            >
+            <div class="dropdown-content">
+              <a href="about.html">Our Church</a>
+              <a href="ministries.html">Ministry</a>
+              <a href="team.html">Team</a>
+              <a href="programs.html">Weekly program</a>
+            </div>
+          </div>
+
+          <div class="dropdown nav-item">
+            <a href="media.html" class="dropbtn"
+              >Media <span class="dropdown-arrow">&#9662;</span></a
+            >
+            <div class="dropdown-content">
+              <a href="sermons.html">Sermons</a>
+              <a href="livestream.html">Live Stream</a>
+              <a href="events.html">Church events</a>
+            </div>
+          </div>
+
+          <div class="dropdown nav-item">
+            <a href="visitors.html"  class="dropbtn"
+              >Membership<span class="dropdown-arrow">&#9662;</span></a
+            >
+            <div class="dropdown-content">
+              <a href="visitors.html" >New Visitors</a>
+              <a href="prayer.html" >Prayer Request</a>
+              <a href="giving.html" >Online Giving</a>
+            </div>
+          </div>
+
+          <a href="https://bucu-records.lovable.app/auth" class="nav-item nav-button-link">Sign Up</a>
+
+          <a href="contact.html" class="nav-item nav-button-link"> Contact Us</a>
+        </div>
+      </nav>
+    </header>
+
 
   <!-- About Us Content -->
   <main class="container">

@@ -10,7 +10,26 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
+User-agent: Mediapartners-Google*
+Allow:
 
+User-agent: *
+Allow: /m?
+Allow: /m/?
+Allow: /community_s
+Allow: /translate_c
+Allow: /translate_dict
+Allow: /translate
+Allow: /translate_a
+Allow: /translate/releases
+Allow: /translate_f
+Allow: /translate_p
+Allow: /translate_static/
+Allow: /translate_suggestion
+Allow: /translate_t
+Allow: /toolkit/
+Allow: /manager/
+Allow: /globalmarketfinder/
+Allow: /globalmarketfinder/*.html
+Sitemap: http://translate.google.com/sitemap.xml
 Sitemap: https://bucufellowship.web.app/sitemap.xml
